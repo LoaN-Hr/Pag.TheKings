@@ -1,0 +1,263 @@
+
+body {
+    font-family: 'Lora', serif;
+}
+
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 250px;
+    right: 0 ;
+}
+
+nav li {
+      display: inline;
+      margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: #556B2F;
+    text-decoration: underline;
+}
+
+.imagem{
+    text-align: center;
+    background: #000000;
+}
+
+.banner {
+    position: relative;
+    margin: 0 auto;
+    width: 45%;
+    border: 40px solid #000000;
+    
+}
+
+.banner:hover {
+    opacity: 0.5;
+    transition: 500ms;
+}
+
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    width: 30%;
+    padding: 10px 15px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    text-align: center;
+    clear: left;   
+}
+
+h2:hover {
+    font-size: 35px;
+    border-color: #556B2F;
+
+}
+
+.caixa2 {
+    position: relative;
+    margin: 0 auto;
+    width: 85%;
+    background: #FEFEFE;
+
+}
+
+.cranio {
+   width: 200px;
+   float: left;
+   margin: 0 20px 20px 0;
+}
+
+.principal {
+    
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 150px;
+    
+}
+
+#missao {
+    width: 840px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 20px 0;
+    margin: 15px auto;
+    border: 3px dashed #556B2F;
+    border-radius: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    width: 25%;
+    padding: 10px 15px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    text-align: center;
+    clear: left;
+    background: #FEFEFE;
+}
+
+h3:hover {
+    font-size: 35px;
+    border-color: #556B2F;
+
+}
+
+.mapa {
+    padding: 3em 0 ;
+    margin: 0 auto;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+    font-size: 25px;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+    border: 5px solid #000000;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: bold;
+    width: 25%;
+    padding: 10px 15px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    text-align: center;
+    clear: left;
+    background:#FEFEFE;
+}
+
+h4:hover {
+    font-size: 35px;
+    border-color: #556B2F;
+}
+
+.eu-proprietario {
+    padding: 2em 0;
+    background-color: #888888;
+}
+
+.proprietario {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.loan {
+    width: 57%;
+    border: 3px solid #000000;
+    border-radius: 25px;  
+    box-shadow: 10px 10px 5px #000000; 
+}
+
+.loan:hover {
+    opacity: 0.9;
+    box-shadow: 16px 16px 8px #000000; 
+    transition: 700ms;
+    width: 58%;
+}
+
+.itens {
+    line-height: 2;
+}
+
+.itens:before {
+    content: "⚝";
+}
+
+.itens:nth-child(1){
+    font-weight: bold;
+}
+
+.itens:nth-child(2){
+    font-weight: bold;
+}
+
+.itens:nth-child(3){
+    font-weight: bold;
+}
+
+.itens:nth-child(6){
+    font-weight: bold;
+}
+
+.video {
+    width: 560px;
+    margin: 4em auto;
+}
+
+footer{
+    text-align: center;
+    background-color: #BBBBBB;
+    padding-top: 20px;
+}
+
+.copyright {
+    background-color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 16px;
+    padding: 40px;
+}
+
+footer img{
+    width: 250px;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, #missao, .mapa-conteudo, .video, .eu-proprietario, .proprietario, .caixa2 {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+        width: auto;
+    }
+
+    img.titulo-principal{
+        width: 412px;
+    }
+    
+
+    nav {
+        position: static;
+    }
+}
